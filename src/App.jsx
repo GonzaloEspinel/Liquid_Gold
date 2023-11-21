@@ -1,29 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './'
-
-import './App.css'
-
 import React from 'react';
-import './ResponsiveNavbar.css';
+import .
 
-function ResponsiveNavbar() {
+function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="logo">
-        {/* Your logo component or image */}
-        <h1>Logo</h1>
-      </div>
-      <ul className="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    
   );
 }
 
-export default ResponsiveNavbar;
+export default Navbar;
 function App() {
   const [count, setCount] = useState(0)
 
